@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: codingdojo.CustomerSyncTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.062 s <<< FAILURE! - in codingdojo.CustomerSyncTest
+syncCompanyByExternalId  Time elapsed: 0.059 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at codingdojo.CustomerSyncTest.syncCompanyByExternalId(CustomerSyncTest.java:25)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @26d94d14
+	at codingdojo.CustomerSyncTest.syncCompanyByExternalId(CustomerSyncTest.java:25)
+
